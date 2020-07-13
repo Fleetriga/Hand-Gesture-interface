@@ -11,7 +11,7 @@ It does this through the following steps:
 3. Program shows user the camera feed where objects within the colour model are white and everything else is black.
 4. User tweaks options in order to isolate only skin, as best as possible.
 
-#Programs main execution loop
+# Programs main execution loop
 1. Program finds largest body of white within frame. This is hopefully the users hand.
 2. Program creates a convex hull (a shell) around the users hand.
 3. Program compares convex hull against users hand to determine how. Many fingers are being held up (i.e. gestures)
